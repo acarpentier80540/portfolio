@@ -1,0 +1,32 @@
+/* Couleur de fond de la barre de navigation */
+.navbar {
+    background-color: #000000c5;
+    height: 40px;
+
+  }
+
+.navbar-full {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style:none;
+    height: 40px;
+}
+  
+  /* Couleur du texte de la marque et des liens */
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+    height: 5%;
+  }
+
+  .img-nav { height: 30px;}
+  
+  /* Couleur du texte des liens au survol */
+  .nav-link:hover {
+    color: #f00 !important;
+  }
+  
+  /* Taille de la police pour la marque et les liens */
+  .navbar-brand, .nav-link {
+    font-size: 18px;
+  }
